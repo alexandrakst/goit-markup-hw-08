@@ -1,0 +1,19 @@
+.team__social-link {
+    display: block;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+  
+    border-radius: 50%;
+  
+    fill: var(--secondary-logo-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        fill: var(--fourth-text-color);
+        background-color: var(--accent-color);
+      }
+  }
+  

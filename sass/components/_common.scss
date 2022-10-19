@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  font-size: var(--primary-font-size);
+  background-color: var(--fourth-text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .list {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+  }

@@ -1,0 +1,54 @@
+.our-works {
+    padding-top: 47px;
+    padding-bottom: 94px;
+  }
+  
+  .our-work {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+      width: calc((100% - 60px) / 3);
+      margin-right: 30px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__service {
+      position: relative;
+    }
+
+    &__description {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 70px;
+      width: 100%;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    
+      color: var(--fourth-text-color);
+      background: rgba(47, 48, 58, 0.8);
+    }
+  }
+  
+  
+  .our-work__title,
+  .team__title {
+    margin-bottom: 50px;
+  
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
