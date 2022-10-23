@@ -1,9 +1,8 @@
 
 .about {
   padding-top: 60px;
-  padding-bottom: 60px;
 
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 47px;
   }
@@ -34,7 +33,7 @@
           max-width: 354px; 
         }
       
-        @media screen and (min-width: 1600px) {
+        @media screen and (min-width: 1200px) {
         max-width: 270px;
         }
   
@@ -46,7 +45,10 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+}
 
+.about__p:last-child {
+  margin-bottom: 60px;
 }
 
 .about__title--hidden,
