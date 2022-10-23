@@ -1,3 +1,13 @@
+.our-work__container {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
 .our-works {
     padding-top: 47px;
     padding-bottom: 94px;
@@ -52,3 +62,4 @@
     letter-spacing: 0.03em;
     text-align: center;
   }
+}

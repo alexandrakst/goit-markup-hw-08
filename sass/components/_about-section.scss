@@ -1,5 +1,71 @@
 
 .about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1600px) {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
+
+  &__header {
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-size: var(--primary-font-size);
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        // width: 450px;
+        margin-bottom: 30px;
+    
+        background: var(--primary-background-color);
+        border-radius: 4px;
+
+        @media screen and (min-width: 768px) {
+          max-width: 354px; 
+        }
+      
+        @media screen and (min-width: 1600px) {
+        max-width: 270px;
+        }
+  
+}
+}
+
+.about__p {
+  margin-bottom: 30px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+
+}
+
+.about__title--hidden,
+.portfolio__title--hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+
+@media screen and (min-width: 1200px) {
+.about {
   padding-top: 94px;
   padding-bottom: 47px;
 
@@ -59,4 +125,5 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
 }
