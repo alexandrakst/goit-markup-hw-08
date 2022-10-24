@@ -116,6 +116,11 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0p
         border-color: transparent;
         background-color: transparent;
 
+        &:hover,
+        &:focus {
+            fill: var(--accent-color);
+        }
+
         @media screen and (min-width: 768px) {
         display: none;
         }

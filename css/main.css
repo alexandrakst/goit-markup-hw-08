@@ -1969,6 +1969,9 @@ img {
   border-color: transparent;
   background-color: transparent;
 }
+.menu-toggle.js-open-menu:hover, .menu-toggle.js-open-menu:focus {
+  fill: var(--accent-color);
+}
 @media screen and (min-width: 768px) {
   .menu-toggle.js-open-menu {
     display: none;
