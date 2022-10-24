@@ -52,7 +52,11 @@
             >
           </li>
         </ul>
-        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">??
+        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="" width="25" height="25">
+            <use href="./images/defs.svg#icon-navigation"></use>
+          </svg>
+
           <!-- <svg width="11" height="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
@@ -61,7 +65,13 @@
         </button>
       </div>
       <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">X</button>
+        <button class="menu-toggle js-close-menu">
+          <svg width="11" height="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+            />
+          </svg>
+        </button>
         <div class="mobile-menu__wrap">
           <ul class="mobile-menu">
             <li class="mobile-menu__item list">
@@ -90,19 +100,19 @@
           </li>
         </ul>
         <ul class="mobile-menu__social list">
-          <li>
+          <li class="mobile-menu__social-item">
             <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">Instagram
             </a>
           </li>
-          <li>
+          <li class="mobile-menu__social-item">
             <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">Twitter
             </a>
           </li>
-          <li>
+          <li class="mobile-menu__social-item">
             <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">Facebook
             </a>
           </li>
-          <li>
+          <li class="mobile-menu__social-item">
             <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">LinkedIn
             </a>
           </li>
@@ -213,17 +223,6 @@
           <ul class="team__photos list">
             <li class="team__description">
               <div class="team__wrapper">
-                <!-- <img
-                srcset="./images/team/desktop/member1-mob-1x.jpg 450w,
-                ./images/team/desktop/member1-mob-2x.jpg 900w,
-                ./images/team/tablet/member1-tab-1x.jpg 354w,
-                ./images/team/tablet/member1-tab-2x.jpg 708w,
-                ./images/team/desktop/member1-desk-1x.jpg 270w,
-                ./images/team/desktop/member1-desk-2x.jpg 540w"
-                270px, (min-width: 678px) 354px, 450px,
-                src="./images/team/mobile/member1-mob-1x.jpg" 
-                alt="headshot photo of Ihor Demianenko"
-                sizes="(min-width: 960px) 25vw, (min-width: 576px) 50vw, 100vw"> -->
                 <picture>
                   <source srcset="./images/team/desktop/member1-desk-1x.jpg 1x, ./images/team/desktop/member1-desk-2x.jpg 2x"
                   media="(min-width: 1200px)"
@@ -597,7 +596,6 @@
               </svg>
             </div>
           </div>
-
           <div class="modal__form-element">
             <label class="modal__form-label" for="tel">Телефон</label>
             <div class="modal__input-wrap">
@@ -607,7 +605,6 @@
               </svg>
             </div>
           </div>
-
           <div class="modal__form-element">
             <label class="modal__form-label" for="email">Пошта</label>
             <div class="modal__input-wrap">

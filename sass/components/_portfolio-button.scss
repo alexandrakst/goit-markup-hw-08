@@ -1,3 +1,16 @@
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.portfolio__item {
+  margin-right: 8px;
+  margin-bottom: 15px;
+
+}
+
 .portfolio__button {
   display: inline-block;
   border-radius: 4px;
@@ -25,4 +38,13 @@
     
       cursor: pointer;
     }
+}
+
+@media screen and (min-width: 768px) {
+
+  .portfolio__list {
+    justify-content: center;
+  }
+
+  
 }
