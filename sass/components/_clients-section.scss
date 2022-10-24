@@ -10,13 +10,11 @@
   letter-spacing: 0.03em;
     
   color: var(--primary-text-color);
-   
 }
 
 .clients__link {
   width: 210px;
   height: 92px;
-
     
   display: flex;
   align-items: center;
@@ -34,7 +32,6 @@
     color: var(--accent-color);
     border-color: var(--accent-color);
   }
-
 }
 
 .clients__logo {
@@ -54,7 +51,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 
 @media screen and (min-width: 1200px) {
 

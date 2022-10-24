@@ -1,9 +1,4 @@
 
-// @media screen and (min-width: 320px) and (max-width: 479px) {
-
-
-// }
-
 .header-nav {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -26,11 +21,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-
-
-  // .header {
-  //   border-bottom: 1px solid var(--border-color);
-  // }
 
   .header-nav {
     margin-top: 0;
@@ -58,7 +48,6 @@
   .header-nav__phone {
     padding-bottom: 21px;
   }
-
 
   .header-nav__link:hover,
   .header-nav__link:focus,
@@ -132,27 +121,10 @@
 
   }
 
-  // .header-nav__item,
-  // .header-nav__mail,
-  // .header-nav__phone {
-  //   margin-right: 50px;
-
-  //   font-weight: 500;
-  //   line-height: 1.14;
-  //   letter-spacing: 0.02em;
-  // }
-
   .header-nav__item:last-child,
   .header-nav__phone:last-child {
     margin-right: 0;
   }
-
-  // .header-nav__mail,
-  // .header-nav__phone {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: flex-end;
-  // }
 
   .header-nav__icon {
     fill: currentColor;
@@ -282,6 +254,5 @@
   .header.portfolio__list {
     border-bottom: 1px solid var(--border-color);
   }
-  
   
 }
