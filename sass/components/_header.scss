@@ -11,6 +11,8 @@
 
 .header {
   position: relative;
+
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header-nav__list,
@@ -26,9 +28,9 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
 
-  .header {
-    border-bottom: 1px solid var(--border-color);
-  }
+  // .header {
+  //   border-bottom: 1px solid var(--border-color);
+  // }
 
   .header-nav {
     margin-top: 0;

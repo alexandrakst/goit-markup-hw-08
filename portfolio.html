@@ -22,10 +22,10 @@
           <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
           <ul class="header-nav__list list">
             <li class="header-nav__item list">
-              <a href="./index.html" class="header-nav__link" rel="noopener noreferrer nofollow">Студія</a>
+              <a href="./index.html" class="header-nav__link header-nav__link--current" rel="noopener noreferrer nofollow">Студія</a>
             </li>
             <li class="header-nav__item list">
-              <a href="./portfolio.html" class="header-nav__link header-nav__link--current" rel="noopener noreferrer nofollow"
+              <a href="./portfolio.html" class="header-nav__link" rel="noopener noreferrer nofollow"
                 >Портфоліо</a
               >
             </li>
@@ -50,6 +50,61 @@
               </svg>
               +38 096 111 11 11</a
             >
+          </li>
+        </ul>
+        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">??
+          <!-- <svg width="11" height="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+            />
+          </svg> -->
+        </button>
+      </div>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">X</button>
+        <div class="mobile-menu__wrap">
+          <ul class="mobile-menu">
+            <li class="mobile-menu__item list">
+              <a href="./index.html" class="mobile-menu__link studio" rel="noopener noreferrer nofollow">Студія</a>
+            </li>
+            <li class="mobile-menu__item list">
+              <a href="./portfolio.html" class="mobile-menu__link" rel="noopener noreferrer nofollow"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="mobile-menu__item list">
+              <a href="#" class="mobile-menu__link" rel="noopener noreferrer nofollow">Контакти</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="mobile-menu__info list">
+          <li class="mobile-menu__phone">
+            <a href="tel:+380961111111" class="mobile-menu__phone-link">
+            +38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__mail">
+            <a href="mailto:info@devstudio.com" class="mobile-menu__mail-link">
+              info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-menu__social list">
+          <li>
+            <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">Instagram
+            </a>
+          </li>
+          <li>
+            <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">Twitter
+            </a>
+          </li>
+          <li>
+            <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">Facebook
+            </a>
+          </li>
+          <li>
+            <a class="mobile-menu__social-link" href="#" rel="noopener noreferrer nofollow">LinkedIn
+            </a>
           </li>
         </ul>
       </div>
@@ -79,13 +134,23 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio1.jpg"
-                    alt="image of a laptop"
-                    width="370"
-                  
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio1-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio1-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio1-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio1-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio1-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio1-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio1-mob-1x.jpg"
+                  class="product__img"
+                  alt="image of a laptop"
+                  width="370"
+                />
+              </picture>
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -101,12 +166,23 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio2.jpg"
-                    alt="image of two basketball players"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio2-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio2-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio2-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio2-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio2-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio2-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio2-mob-1x.jpg"
+                  class="product__img"
+                  alt="image of two basketball players"
+                  width="370"
+                />
+              </picture>
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -122,12 +198,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio3.jpg"
-                    alt="the sea food restaurant logo"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio3-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio3-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio3-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio3-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio3-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio3-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio3-mob-1x.jpg"
+                  class="product__img"
+                  alt="the sea food restaurant logo"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -143,12 +229,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio4.jpg"
-                    alt="picture of over the ear headphones"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio4-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio4-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio4-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio4-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio4-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio4-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio4-mob-1x.jpg"
+                  class="product__img"
+                  alt="picture of over the ear headphones"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -164,12 +260,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio5.jpg"
-                    alt="white and brown boxes next to each other"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio5-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio5-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio5-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio5-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio5-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio5-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio5-mob-1x.jpg"
+                  class="product__img"
+                  alt="white and brown boxes next to each other"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -185,12 +291,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio6.jpg"
-                    alt="image of imac"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio6-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio6-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio6-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio6-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio6-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio6-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio6-mob-1x.jpg"
+                  class="product__img"
+                  alt="image of imac"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -206,12 +322,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio7.jpg"
-                    alt="image of a magazine"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio7-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio7-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio7-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio7-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio7-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio7-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio7-mob-1x.jpg"
+                  class="product__img"
+                  alt="image of a magazine"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -227,12 +353,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio8.jpg"
-                    alt="label tag"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio8-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio8-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio8-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio8-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio8-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio8-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio8-mob-1x.jpg"
+                  class="product__img"
+                  alt="label tag"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -248,12 +384,22 @@
             <li class="product">
               <a href="" class="product__image">
                 <div class="product__before">
-                  <img
-                    class="product__img"
-                    src="./images/portfolio9.jpg"
-                    alt="image of a laptop"
-                    width="370"
-                  />
+                  <picture>
+                    <source srcset="./images/portfolio/desk/portfolio9-desk-1x.jpg 1x, ./images/portfolio/desk/portfolio9-desk-2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="./images/portfolio/tab/portfolio9-tab-1x.jpg 1x, ./images/portfolio/tab/portfolio9-tab-2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source srcset="./images/portfolio/mob/portfolio9-mob-1x.jpg 1x, ./images/portfolio/mob/portfolio9-mob-2x.jpg 2x"
+                    media="(max-width: 767px)"
+                    />
+                <img
+                  src="./images/portfolio/mob/portfolio9-mob-1x.jpg"
+                  class="product__img"
+                  alt="image of a laptop"
+                  width="370"
+                />
                   <p class="product__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -353,5 +499,6 @@
         </div>
       </div>
     </footer>
+    <script defer src="/js/mobile-menu.js"></script>
   </body>
 </html>
