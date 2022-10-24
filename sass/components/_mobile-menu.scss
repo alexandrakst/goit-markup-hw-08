@@ -50,11 +50,16 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0p
 
     .mobile-menu {
         margin-top: 48px;
+        margin-bottom: 250px;
+    }
+
+    .mobile-menu__link.studio {
+        color: var(--accent-color);
     }
 
     .mobile-menu__mail-link {
         font-weight: 500;
-        font-size: 34px;
+        font-size: 24px;
         // line-height: 40px;
 
         letter-spacing: 0.02em;
@@ -62,7 +67,7 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0p
 
     .mobile-menu__phone-link {
         font-weight: 500;
-        font-size: 24px;
+        font-size: 34px;
         // line-height: 28px;
         letter-spacing: 0.02em;
 
@@ -71,15 +76,16 @@ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0p
     }
 
     .mobile-menu__mail {
-        margin-bottom: 32px;
-    }
-
-    .mobile-menu__phone {
         margin-bottom: 64px;
     }
 
+    .mobile-menu__phone {
+        margin-bottom: 32px;
+    }
+
     .mobile-menu__social {
-        padding-left: 40px;
+        margin-left: 40px;
+        margin-bottom: 48px;
         display: flex;
     }
 
