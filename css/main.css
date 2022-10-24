@@ -680,7 +680,31 @@ img {
   padding-bottom: 24px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__wrapper {
+    width: 354px;
+    margin-bottom: 30px;
+  }
+  .team__photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+  }
+  .team__description {
+    margin-bottom: 0;
+  }
+}
 @media screen and (min-width: 1200px) {
+  .team__wrapper {
+    width: 270px;
+    margin-bottom: 30px;
+  }
   .team {
     padding-top: 94px;
     padding-bottom: 94px;
