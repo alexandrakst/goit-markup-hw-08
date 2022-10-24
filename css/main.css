@@ -418,6 +418,7 @@ img {
 
 .about {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .about__header {
   margin-bottom: 10px;
@@ -455,14 +456,9 @@ img {
 }
 
 .about__p {
-  margin-bottom: 30px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
-}
-
-.about__p:last-child {
-  margin-bottom: 60px;
 }
 
 .about__title--hidden,
