@@ -126,7 +126,15 @@
     margin-right: 0;
   }
 
+  .header-nav__icon.header-nav__icon-mobile {
+    width: 10px;
+    height: 14px;
+  }
+
   .header-nav__icon {
+    width: 14px;
+    height: 10px;
+
     fill: currentColor;
 
     margin-right: 10px;

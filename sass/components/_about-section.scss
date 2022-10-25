@@ -36,6 +36,13 @@
 }
 }
 
+@media screen and (min-width: 768px) {
+
+  .about__header {
+    text-align: start;
+}
+}
+
 .about__p {
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -72,6 +79,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: left;
   }
 
   &__p {
