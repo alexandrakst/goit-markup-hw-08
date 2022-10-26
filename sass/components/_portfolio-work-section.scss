@@ -9,9 +9,8 @@
 
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   &__cards {
     margin-top: 40px;
@@ -20,7 +19,6 @@
     flex-wrap: wrap;
     gap: 30px;
   }
-
 }
 
 .product__image {
@@ -81,7 +79,7 @@
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  // letter-spacing: 0.06em;
 
   color: var(--primary-text-color);
 }
@@ -103,9 +101,19 @@
   .product__before {
     width: 354px;
   }
-}
+
+  .portfolio__cards {
+    margin-top: 30px;
+    }
+  }
+
 
 @media screen and (min-width: 1200px) {
+
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
   .product__image {
     width: 370px;
@@ -113,5 +121,13 @@
 
   .product__before {
     width: 370px;
+  }
+
+  .portfolio__cards {
+    padding-top: 50px;
+  }
+
+  .product__header {
+    letter-spacing: 0.06em;
   }
 }

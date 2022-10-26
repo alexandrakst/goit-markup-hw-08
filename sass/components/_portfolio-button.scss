@@ -7,8 +7,14 @@
 
 .portfolio__item {
   margin-right: 8px;
-  margin-bottom: 15px;
+}
 
+.portfolio__item:last-child {
+  margin-right: 0;
+}
+
+.portfolio__list > :not(:nth-last-of-type(-n+2)) {
+ margin-bottom: 8px;
 }
 
 .portfolio__button {
@@ -46,5 +52,8 @@
     justify-content: center;
   }
 
+  .portfolio__item:last-child {
+    margin-right: 0;
+  }
   
 }

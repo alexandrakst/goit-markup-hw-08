@@ -165,6 +165,13 @@
       transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    @media screen and (min-width: 480px) {
+
+    .footer__subscribe-email {
+      width: 450px;
+    }
+  }
+
 
     @media screen and (min-width: 768px) {
 
@@ -176,14 +183,12 @@
       
       .footer__detail {
           margin-bottom: 60px;
-
         }
+
+        // .footer__subscribe-email {
+        //   width: 450px;
+        // }
       }
-
-    .footer__subscribe-email {
-      width: 450px;
-    }
-
 
     @media screen and (min-width: 1200px) {
 
@@ -198,7 +203,8 @@
         background-color: var(--secondary-text-color);
 
         &__detail {
-
+          margin-bottom: 0;
+  
           margin-right: 70px;
         }
     
@@ -260,6 +266,7 @@
             padding-left: 16px;
             padding-top: 15px;
             padding-bottom: 15px;
+            margin-bottom: 0;
           
             font-size: 16px;
             line-height: 1.25;
@@ -312,8 +319,9 @@
     
         &__join {
           margin-right: 93px; 
-        }
+          margin-bottom: 0;
       }
+    }
       
       .footer__subscribe-email:hover,
       .footer__subscribe-email:focus {
