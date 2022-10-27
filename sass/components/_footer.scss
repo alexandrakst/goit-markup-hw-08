@@ -185,10 +185,10 @@
           margin-bottom: 60px;
         }
 
-        // .footer__subscribe-email {
-        //   width: 450px;
-        // }
+        .footer__join {
+          margin-bottom: 0;
       }
+    }
 
     @media screen and (min-width: 1200px) {
 
@@ -319,7 +319,6 @@
     
         &__join {
           margin-right: 93px; 
-          margin-bottom: 0;
       }
     }
       

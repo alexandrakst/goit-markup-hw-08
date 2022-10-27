@@ -52,8 +52,11 @@
     justify-content: center;
   }
 
+  .portfolio__list .portfolio__item {
+    margin-bottom: 0px;
+  }
+
   .portfolio__item:last-child {
     margin-right: 0;
-  }
-  
+  } 
 }

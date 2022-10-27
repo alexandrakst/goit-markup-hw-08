@@ -382,7 +382,7 @@ img {
   margin: 0 auto;
   width: 360px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-weight: 900;
   font-size: 26px;
   line-height: 42px;
@@ -396,7 +396,6 @@ img {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
-  margin-top: 30px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -419,6 +418,7 @@ img {
     font-weight: 900;
     font-size: 26px;
     line-height: 42px;
+    margin-bottom: 30px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -901,6 +901,11 @@ img {
   gap: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .clients__link {
+    width: 226px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .clients {
     padding-top: 94px;
@@ -1138,6 +1143,9 @@ img {
   .footer__detail {
     margin-bottom: 60px;
   }
+  .footer__join {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .address {
@@ -1263,7 +1271,6 @@ img {
   }
   .footer__join {
     margin-right: 93px;
-    margin-bottom: 0;
   }
   .footer__subscribe-email:hover,
 .footer__subscribe-email:focus {
@@ -1552,6 +1559,11 @@ img {
        -moz-appearance: none;
             appearance: none;
     pointer-events: none;
+  }
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1856,6 +1868,9 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .portfolio__list .portfolio__item {
+    margin-bottom: 0px;
+  }
   .portfolio__item:last-child {
     margin-right: 0;
   }
@@ -1971,7 +1986,7 @@ img {
     width: 370px;
   }
   .portfolio__cards {
-    padding-top: 50px;
+    margin-top: 50px;
   }
   .product__header {
     letter-spacing: 0.06em;
