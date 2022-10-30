@@ -487,6 +487,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.about__info {
+  margin-bottom: 30px;
+}
+.about__info:last-child {
+  margin-bottom: 0;
+}
 .about__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,6 +528,10 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+}
+
+.about__info:nth-last-child(-n+2) {
+  margin-bottom: 0;
 }
 
 .about__title--hidden,
@@ -577,6 +587,7 @@ img {
   .about__info {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
+    margin-bottom: 0;
   }
   .about__info:last-child {
     margin-right: 0;
@@ -979,7 +990,7 @@ img {
   line-height: 1.2;
 }
 
-.footer__join {
+.footer__flex-tablet {
   margin-bottom: 60px;
 }
 
@@ -1141,7 +1152,7 @@ img {
             align-items: baseline;
   }
   .footer__detail {
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
   .footer__join {
     margin-bottom: 0;
